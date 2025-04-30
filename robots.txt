@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /traitement.php
 Disallow: /mentions-legales.html
-Sitemap: https://couvreur-95-valdoisien.fr/sitemap.xml
+Sitemap: https://renov-habitation-10.fr/sitemap.xml
