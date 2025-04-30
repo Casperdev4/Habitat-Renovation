@@ -182,7 +182,7 @@ a {text-decoration: none;font-weight: 600;color: #000;}
   font-weight: 300;
   margin-top: 3%;
 }
-.tltltltltlt,.sssssssp,.rea{display:none}
+.tltltltltlt,.sssssssp,.rea,.description-img{display:none}
 
 /*  Small device */
 @media screen and (max-width:767.98px) {
