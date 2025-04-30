@@ -67,7 +67,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contact@webprime.fr', 'Couvreur Valdoisien');
+    $mail->setFrom('contact@webprime.fr', 'Habitat Renovation');
     $mail->addAddress('habitat51.renovation@gmail.com');
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
@@ -78,7 +78,7 @@ try {
 
     $mail->send();
 
-    header('Location: https://renov-habitation-10.fr');
+    header('Location: https://habitat-renovation-10.fr');
     exit();
 } catch (Exception $e) {
     echo "Message non envoyé. Erreur Mailer: {$mail->ErrorInfo}";
