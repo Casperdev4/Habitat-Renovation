@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /traitement.php
 Disallow: /mentions-legales.html
-Sitemap: https://habitat-renovation-10.fr/sitemap.xml
+Sitemap: https://macon-couvreur-aube.fr/sitemap.xml
