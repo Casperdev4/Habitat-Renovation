@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nFix: lien agrandissement corrigé + ajout validateForm()\n\n- Corrige le lien cassé agrandissement-maison-macon -> agrandissement-maison\n- Ajoute la fonction validateForm() manquante sur index.html\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git rm:*)",
+      "Bash(git rebase:*)",
+      "Bash(cat:*)",
+      "Bash(for file in *.html)",
+      "Bash(do:*)",
+      "Bash(if grep -q \"submitToWebPrime\" \"$file\")",
+      "Bash(! grep -q \"async function submitToWebPrime\" \"$file\")",
+      "Bash(then)",
+      "Bash(echo:*)",
+      "Bash(fi)",
+      "Bash(done)"
+    ]
+  }
+}
