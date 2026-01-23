@@ -62,14 +62,14 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.ionos.fr';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'contact@webprime.fr';
+    $mail->Username   = 'contact@kazeko-fight.com';
     $mail->Password   = 'Allamlyly912!';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contact@webprime.fr', 'Habitat Renovation');
+    $mail->setFrom('contact@kazeko-fight.com', 'Habitat Renovation');
     $mail->addAddress('habitat51.renovation@gmail.com');
-    $mail->addAddress('formulaire@webprime.fr');
+    $mail->addAddress('formulaire@kazeko-fight.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
     $mail->Subject = 'Formulaire Ads';
