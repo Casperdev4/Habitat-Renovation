@@ -48,8 +48,9 @@ a {text-decoration: none;font-weight: 600;color: #000;}
 }
 .logo-link{display:flex;align-items:center}
 .logo{
-  max-height:70px;
-  min-height:70px;
+  max-height:90px;
+  min-height:90px;
+  width:auto;
   margin-left:10px;
   transition:transform 0.3s ease;
 }
@@ -207,7 +208,7 @@ a {text-decoration: none;font-weight: 600;color: #000;}
 .cjfkdkkdsjkk h3 {font-size: 20px;margin-left: 6%;margin-right: 5%;text-align: left;margin-top: 10%;margin-bottom: 3%;font-weight: 600;}
 .smsmsmsms3 img{display:flex;justify-content:center;width:30%;height:auto;margin:5% auto 3%}
 .smsmsmsms3 h3 {font-size: 20px;margin-left: 6%;margin-right: 5%;text-align: left;margin-top: 10%;margin-bottom: 3%;font-weight: 600;}
-#contact{margin-top:10%;padding:2%;background-color:#254176}#contact h5{text-align:center;margin:5% 3% 3%;color:#a2a1a1;font-weight:600;font-size:20px}#contact p{color:#fff}
+#contact{margin-top:10%;padding:2%;background-color:#254176}#contact h3{text-align:center;margin:5% 3% 3%;color:#ffffff;font-weight:600;font-size:20px}#contact p{color:#fff}
 .liens a {
   margin: 0;
   color: #ffffff;
@@ -384,8 +385,9 @@ a {text-decoration: none;font-weight: 600;color: #000;}
   }
   .logo-link{display:flex;align-items:center}
   .logo{
-    max-height:55px;
-    min-height:55px;
+    max-height:80px;
+    min-height:80px;
+    width:auto;
     margin-left:5px;
   }
 
@@ -569,7 +571,7 @@ a {text-decoration: none;font-weight: 600;color: #000;}
     font-size: 1rem;
     color: #555;
 }
-  #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}#contact h5{margin-top:10%;margin-bottom:5%;font-weight:600}#contact p{text-align:center;margin:0 0 3%;color:#fff;font-size:15px}.tltltltltlt{display:flex;position:fixed;padding:1% 2%;background-color:#254176;right:4%;bottom:5%;border-radius:20px}.tltltltltlt a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}
+  #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}#contact h3{margin-top:10%;margin-bottom:5%;font-weight:600;color:#ffffff}#contact p{text-align:center;margin:0 0 3%;color:#fff;font-size:15px}.tltltltltlt{display:flex;position:fixed;padding:1% 2%;background-color:#254176;right:4%;bottom:5%;border-radius:20px}.tltltltltlt a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}
   .liens-wp a,
   .liens-wp h6 {
     font-size: 13px;
