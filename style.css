@@ -37,7 +37,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
 .h{background-color:#254176;padding:2% 0;width:80%;margin:10% auto;box-shadow:2px 3px 0 2px #a2a1a1;border-radius:20px 20px 20px 0}.h h4,.h p{color:#fff}
 #tarif{background-color:#cccccc;padding:2%;width:100%;margin:10% auto}#tarif h2,#tarif h3,#tarif p{color:#000}#tarif p{text-align: left}
 .valeur h3,.valeur h4{margin-bottom:0;color:#fff;text-align:left}.valeur h3,.valeur h4,.valeur p{text-align:left}.valeur{background-color:#254176;width:75%;margin-left:auto;margin-right:auto;box-shadow:2px 3px 0 2px #254176;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s;border-radius:20px 20px 20px 0}.valeur.slide-in-done{opacity:1;transform:translateX(0)}.valeur .confiance{display:flex;align-items:center;margin-top:5%;margin-left:2%;font-size:35px;text-align:left}.valeur h3{display:flex;align-items:center;font-size:30px}.valeur h4{font-size:20px;margin-top:3%}.valeur p{margin-left:0;color:#fff;font-size:17px;margin-top:0}
-/* ===== NAVIGATION DESKTOP ===== */
 *{box-sizing:border-box;outline:0;margin:0;padding:0}
 .papapanav{
   display:flex;
@@ -64,7 +63,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
 }
 .logo:hover{transform:scale(1.05)}
 
-/* Burger Menu Icon */
 .burger{
   display:none;
   flex-direction:column;
@@ -95,7 +93,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
   transform:rotate(-45deg) translate(7px,-7px);
 }
 
-/* Navigation Links Desktop */
 .navapapapapa{
   display:flex;
   list-style:none;
@@ -126,7 +123,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
 .n-navapapapapa a:hover::after{width:60%}
 .n-navapapapapa a:hover{color:#254176}
 
-/* Phone CTA Button */
 .n-navapapapapa:last-child a{
   background:linear-gradient(135deg,#254176 0%,#3a5a9c 100%);
   color:#fff!important;
@@ -293,7 +289,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
 }
 .tltltltltlt,.sssssssp,.rea,.description-img{display:none}
 
-/* FAQ Section */
 .faq-section {
   max-width: 900px;
   margin: 5% auto;
@@ -361,7 +356,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
     pointer-events: none;
 }
 
-/*  Small device */
 @media screen and (max-width:767.98px) {
 
   h2{color:#000000}h4,p{color:#000000;text-align:center}h1,h2,h3,h4,p{text-align:center}h1{font-weight:550;font-size:30px;margin-bottom:-2%;margin-top:5%}h2{margin-top:10%;margin-bottom:10%;font-size:30px;font-weight:530}h3{font-weight:200;font-size:17px;margin:3% 3% 7%}h4{margin:5% 3%;font-size:20px;font-weight:350}p{font-size:19px;margin-left:5%;margin-right:5%;padding:2%}
@@ -375,7 +369,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
   body {
     margin-top: 18%;
   }
-  /* ===== NAVIGATION MOBILE ===== */
   .papapanav{
     display:flex;
     padding:10px 15px;
@@ -399,7 +392,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
     margin-left:5px;
   }
 
-  /* Burger visible on mobile */
   .burger{
     display:flex;
     flex-direction:column;
@@ -420,7 +412,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
     transform-origin:center;
   }
 
-  /* Burger transforms to X when menu is open */
   .papapanav input:checked ~ .burger span:nth-child(1){
     transform:rotate(45deg) translate(5px,6px);
   }
@@ -432,7 +423,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
     transform:rotate(-45deg) translate(5px,-6px);
   }
 
-  /* Mobile Menu Dropdown */
   .navapapapapa{
     position:absolute;
     top:100%;
@@ -451,7 +441,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
     padding:15px 0;
   }
 
-  /* Mobile Menu Items */
   .n-navapapapapa{
     width:100%;
     text-align:center;
@@ -485,7 +474,6 @@ a {text-decoration: none;font-weight: 600;color: #000;}
   }
   .n-navapapapapa a::after{display:none}
 
-  /* Phone CTA Button Mobile */
   .n-navapapapapa:last-child{
     padding:15px 20px;
     border-bottom:none;
