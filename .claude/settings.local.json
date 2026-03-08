@@ -3,7 +3,6 @@
     "allow": [
       "Bash(grep:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nFix: lien agrandissement corrigé + ajout validateForm()\n\n- Corrige le lien cassé agrandissement-maison-macon -> agrandissement-maison\n- Ajoute la fonction validateForm() manquante sur index.html\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git push:*)",
       "Bash(git pull:*)",
       "Bash(git rm:*)",
@@ -18,7 +17,16 @@
       "Bash(fi)",
       "Bash(done)",
       "Bash(git commit:*)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAjout des schémas FAQPage et mise à jour sitemap\n\n- Ajout schéma FAQPage sur index.html, couvreur-macon-10-aube.html,\n  devis-toiture-10-aube.html et entreprise-maconnerie-10-aube.html\n- Mise à jour des dates du sitemap au 2026-01-28\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(python3:*)",
+      "Bash(node --version:*)",
+      "Bash(node -e:*)",
+      "Bash(git status:*)",
+      "Bash(ls:*)",
+      "Bash(node _update_html.js:*)",
+      "Bash(node:*)",
+      "WebFetch(domain:macon-couvreur-aube.fr)"
     ]
   }
 }
